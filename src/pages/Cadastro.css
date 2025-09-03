@@ -1,0 +1,95 @@
+/* src/pages/Cadastro.css */
+.cadastro-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.cadastro-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="40" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+}
+
+.cadastro-card {
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+    border-radius: 50%;
+    box-shadow: 0 8px 25px rgba(33, 150, 243, 0.2);
+}
+
+.cadastro-logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.cadastro-input-group .input-group-text {
+    background: #f8f9fa;
+    border-right: none;
+    border-color: #dee2e6;
+}
+
+.cadastro-input-group .form-control {
+    border-left: none;
+    background: #f8f9fa;
+}
+
+.cadastro-input-group .form-control:focus {
+    background: white;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.cadastro-btn {
+    border-radius: 12px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cadastro-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(13, 110, 253, 0.3);
+}
+
+.cadastro-alert {
+    border-radius: 12px;
+    border: none;
+}
+
+.cadastro-link {
+    color: #2196f3;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.cadastro-link:hover {
+    color: #0b5ed7;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cadastro-card .card-body {
+        padding: 2rem !important;
+    }
+}

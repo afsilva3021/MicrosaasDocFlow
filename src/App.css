@@ -1,0 +1,12 @@
+.bg-light-primary { background-color: #e8f4ff; }
+.bg-light-success { background-color: #e8f5e9; }
+.bg-light-warning { background-color: #fff3cd; }
+.bg-light-danger { background-color: #f8d7da; }
+
+.table th {
+  border-top: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #6c757d;
+}
