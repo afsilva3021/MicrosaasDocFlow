@@ -19,9 +19,9 @@ function App() {
         } />
 
         {/* Rota para Pagina modelos */}
-        <Route path="/modelos" element={
+        <Route path="/documentos" element={
           <Layout>
-            <Modelos />
+            <Documentos />
           </Layout>
         } />
 
