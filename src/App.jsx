@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Modelos from './pages/Modelos';
+import Documentos from './pages/Documentos';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import './App.css';
@@ -18,6 +19,13 @@ function App() {
         } />
 
         {/* Rota para Pagina modelos */}
+        <Route path="/modelos" element={
+          <Layout>
+            <Modelos />
+          </Layout>
+        } />
+
+          {/* Rota para Pagina Docuemtos */}
         <Route path="/modelos" element={
           <Layout>
             <Modelos />
