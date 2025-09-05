@@ -160,7 +160,7 @@ function Cadastro() {
                         <Button
                             variant="outline-light"
                             className="back-btn mb-4 d-flex align-items-center"
-                            as={Link} to="/" // ← Redirecionamento direto
+                             onClick={() => navigate('/')} // ← Redirecionamento direto
                         >
                             <ArrowLeft className="me-2" />
                             Voltar para o site
