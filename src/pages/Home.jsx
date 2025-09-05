@@ -200,7 +200,7 @@ function Home() {
                         <Col>
                             <h2 className="fw-bold mb-4 display-5">Pronto para simplificar seus contratos?</h2>
                             <p className="lead mb-4 fs-4">Junte-se a milhares de profissionais que já usam o DocFlow</p>
-                            <Button variant="light" size="lg" className="rounded-pill px-5 py-3 mb-3" as={Link} to"/cadastro">
+                            <Button variant="light" size="lg" className="rounded-pill px-5 py-3 mb-3" as={Link} to="/cadastro">
                                 Começar Agora - Grátis
                             </Button>
                             <p className="mb-0 fs-6">
